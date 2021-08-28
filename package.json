@@ -1,0 +1,23 @@
+{
+  "name": "Uniswap_Send_Raw_Transaction",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node-dev --respawn --pretty --transpile-only ./src/Program.ts",
+    "debug": "ts-node-dev --inspect=4321 --pretty --transpile-only ./src/Program.ts",
+    "ts-compile":"tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@truffle/hdwallet-provider": "^1.5.0",
+    "@types/node": "^16.7.4",
+    "dotenv": "^10.0.0",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.4.2",
+    "web3": "^1.5.2"
+  }
+}
